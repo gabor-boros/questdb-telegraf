@@ -1,6 +1,4 @@
-![img](https://images.unsplash.com/photo-1417144800752-07cac61d4815?crop=entropy&cs=tinysrgb&fit=max&fm=jpg)
-
-_Photo by Louis Moncouyoux from Unsplash.com_
+![img](https://github.com/gabor-boros/questdb-telegraf/blob/657baca8b96c08ceb76d58e4c2a0faf9afc21dbd/images/banner.png)
 
 # Using Telegraf and QuestDB to store metrics in a time series database
 
@@ -44,7 +42,7 @@ Let's get started with the database Droplet. DigitalOcean has an excellent marke
 6. Set the hostname to `telegraf-questdb-tutorial`
 7. Leave all other settings with their defaults, and click "Create Droplet" at the bottom of the page
 
-![img](https://gaboros.hu/content/images/2021/06/Screenshot-2021-06-21-at-15.34.36.png)
+![img](https://github.com/gabor-boros/questdb-telegraf/blob/657baca8b96c08ceb76d58e4c2a0faf9afc21dbd/images/do-droplet-plan.png)
 
 In about 30  seconds, QuestDB is ready to use. To validate that we set everything up successfully, copy the Droplet's IP address by clicking on it and navigate to `http://<IP ADDRESS>:9000/` where `<IP ADDRESS>` is the IP address you just copied. The interactive console should load and we can start querying the database and inserting data!
 
@@ -68,7 +66,7 @@ We will utilize InfluxDB line protocol to send data via Telegraf to QuestDB dire
 
 Compared to the previous Droplet creation, DigitalOcean will create two Droplets instead of one. In a few seconds, the Droplets are ready to start up the Telegraf agent.
 
-![img](https://gaboros.hu/content/images/2021/07/Screenshot-2021-07-08-at-12.54.40.png)         
+![img](https://github.com/gabor-boros/questdb-telegraf/blob/657baca8b96c08ceb76d58e4c2a0faf9afc21dbd/images/do-droplet-list.png)         
 
 ## Configuring Telegraf to send metrics to QuestDB
 
